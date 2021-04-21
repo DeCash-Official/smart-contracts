@@ -1,6 +1,7 @@
 pragma solidity ^0.7.6;
 
 // SPDX-License-Identifier: MIT
+// Source code: https://github.com/DeCash-Official/smart-contracts
 
 interface DeCashRoleInterface {
     function transferOwnership(address _newOwner) external;
