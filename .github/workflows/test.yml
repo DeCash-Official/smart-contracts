@@ -1,10 +1,5 @@
 name: Test
 
-defaults:
-  run:
-    shell: bash
-    working-directory: BC1
-
 on:
   push: {}
   pull_request: {}
