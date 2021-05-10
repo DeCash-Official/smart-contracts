@@ -5,7 +5,7 @@
 
 |  File Name  |  SHA-1 Hash  |
 |-------------|--------------|
-| dist/EURDProxy.dist.sol | 62d89956c52674c7242851bcf39916e3d63b504f |
+| dist/EURDProxy.dist.sol | 05689e1ef97def271f698df7a9ed9b70c38e013d |
 
 
 ### Contracts Description Table

@@ -1,0 +1,49 @@
+{
+  "name": "decash-token-audit",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "lite-server",
+    "truffle:console": "truffle develop",
+    "truffle:compile": "truffle compile --all",
+    "truffle:test": "scripts/test.sh",
+    "hardhat:console": "hardhat console",
+    "hardhat:compile": "hardhat compile",
+    "hardhat:test": "hardhat test",
+    "lint": "npm run lint:js && npm run lint:sol",
+    "lint:js": "eslint .",
+    "lint:js:fix": "eslint . --fix",
+    "lint:sol": "solhint --max-warnings 0 \"contracts/**/**/*.sol\"",
+    "flat": "scripts/flat.sh",
+    "analyze": "scripts/analyze.sh"
+  },
+  "author": "Vittorio Minacori (https://github.com/vittominacori)",
+  "contributors": [
+    {
+      "name": "Vittorio Minacori",
+      "url": "https://github.com/vittominacori"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ganache": "^2.0.0",
+    "@nomiclabs/hardhat-truffle5": "^2.0.0",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/test-helpers": "^0.5.10",
+    "chai": "^4.3.0",
+    "eslint": "^7.21.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-mocha-no-only": "^1.1.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "hardhat": "^2.0.11",
+    "lite-server": "2.6.1",
+    "pako": "^2.0.3",
+    "sol2uml": "^1.1.25",
+    "solhint": "^3.3.2",
+    "surya": "^0.4.2",
+    "truffle": "^5.2.2",
+    "truffle-flattener": "^1.5.0"
+  }
+}

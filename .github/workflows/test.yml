@@ -1,0 +1,32 @@
+name: Test
+
+defaults:
+  run:
+    shell: bash
+    working-directory: BC1
+
+on:
+  push: {}
+  pull_request: {}
+  release:
+    types:
+      - created
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Code
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Test
+        run: npm run truffle:test

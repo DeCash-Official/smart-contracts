@@ -5,7 +5,7 @@
 
 |  File Name  |  SHA-1 Hash  |
 |-------------|--------------|
-| dist/EURDUpgrade.dist.sol | 506cf40812aebeee720ea943cc5b45d347389f28 |
+| dist/EURDUpgrade.dist.sol | 7080373605b0c6769f8a49b09863f2cc7c28e244 |
 
 
 ### Contracts Description Table

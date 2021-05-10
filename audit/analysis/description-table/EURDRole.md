@@ -5,7 +5,7 @@
 
 |  File Name  |  SHA-1 Hash  |
 |-------------|--------------|
-| dist/EURDRole.dist.sol | 958ba852cde0723a508b8eb2bf6fb966f2d24e2b |
+| dist/EURDRole.dist.sol | ce56c6590c8cdcd59c1cf9eacfd48c4327b93eb7 |
 
 
 ### Contracts Description Table

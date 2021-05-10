@@ -5,7 +5,7 @@
 
 |  File Name  |  SHA-1 Hash  |
 |-------------|--------------|
-| dist/EURDStorage.dist.sol | d87e3d0bbd8d9c88d206258ef994b99365aa7f39 |
+| dist/EURDStorage.dist.sol | 157f2fd496a2d56895091967d2a5a0e116ec0604 |
 
 
 ### Contracts Description Table

@@ -5,7 +5,7 @@
 
 |  File Name  |  SHA-1 Hash  |
 |-------------|--------------|
-| dist/EURDToken.dist.sol | a640610cac4212a93dc9baf2522a4473c9e8da25 |
+| dist/EURDToken.dist.sol | c255afa07277d2e6c27669a2f934674cd1770cfe |
 
 
 ### Contracts Description Table
